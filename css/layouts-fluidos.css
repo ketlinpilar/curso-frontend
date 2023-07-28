@@ -1,0 +1,54 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh; /*viewepoint height*/
+    background-color: #efefef;
+    overflow: ovelay;
+}
+
+h1, h2, p {
+    margin-bottom: 20px;
+}
+
+div{
+    padding: 20px 0;
+    margin: 0;
+}
+
+.width-100 {
+    width: 100%;
+    width: 100dvw; /*viewpoint width*/
+    background-color: aqua;
+    padding: 20px 0;
+    height: 400px;
+    height: 100vh; /*viewepoint height*/
+}
+
+nav {
+    width: 20%;
+    float: left;
+    background-color: ivory;
+    display: table;
+    height: 100%;
+}
+
+article {
+    width: 80%;
+    float:left;
+    box-sizing: border-box; /* Conidera o padding e border na largura e altura*/
+    height: 100%;
+}
+
+.fixed-width {
+    width: 200px;
+    background-color: greenyellow;
+    margin: 0 auto;
+}

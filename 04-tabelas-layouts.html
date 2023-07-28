@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - Tabelas e Layout</title>
+	<meta charset="UTF-8">
+	</head>
+	<body>
+		<h1>Tabelas</h1>
+		<table>
+			<table border="1" width="50%">
+				<tr>
+					<td align="center">1A</td>
+					<td align="center">1B</td>
+					<td align="center">1C</td>
+				</tr>
+				<tr>
+					<td align="center">2A</td>
+					<td align="center">2B</td>
+					<td align="center">2C</td>
+				</tr>
+				<tr>
+					<td align="center">3A</td>
+					<td align="center">3B</td>
+					<td align="center">3C</td>
+				</tr>
+		</table>
+		<table width="50%">
+			<thead>
+				<th colspan="3"align="center"> Cabeçalho </th>
+				<tr bgcolor="BBCCEE"> 
+					<th align="center">Coluna 1</th>
+					<th align="center">Coluna 2</th>
+					<th align="center">Coluna 3</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr bgcolor="DDDDDD">
+					<td align="center">1A</td>
+					<td align="center">1B</td>
+					<td align="center">1C</td>
+				</tr>
+				<tr bgcolor="EEEEEE">
+					<td align="center">2A</td>
+					<td align="center">2B</td>
+					<td align="center">2C</td>
+				</tr>
+				<tr bgcolor="EDDEGG">
+					<td align="center">3A</td>
+					<td align="center">3B</td>
+					<td align="center">3C</td>
+				</tr>
+				<tr>
+					<td colspan="3" align="center">Rodapé</td>
+				</tr>
+			</tbody>
+		</table>
+		<h2>Tabela como Layout</h2>
+			<table width="600">
+				<tr>
+					<td colspan="4" bgcolor="BBCCEE" align="center">Cabeçalho</td>
+				</tr>
+				<tr height="300">
+					<td width="20"></td>
+					<td width="50%" bgcolor="DDDDDD" align="center">
+						<h2>Título</h2>
+							<p> Um dia bonito com sol...</p>
+					</td>
+					<td width="50%" bgcolor="DDDDDD" align="center">
+						<h2>Título</h2>
+							<p>Um dia feio sem sol...</p>
+					</td>
+					<td width="20"></td>
+				</tr>
+				<td colspan="4" bgcolor="EDDEGG" align="center">Rodapé</td>
+			</table>
+	</body>
+</html>
