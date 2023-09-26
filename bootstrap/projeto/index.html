@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/custom.css">
+    <title> RDB - Restauração de Bolsas</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="./images/RDB JPG.jpg" alt="Logo RDB" class="logo">
+                </div>
+                <div class="col-md-7 col-sm-12">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item"><a class="nav-link active" href=""> Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#serviços">Serviços</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contatos">Contatos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="sobre">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-sm-12">
+                    <h2>Sobre Nós</h2>
+                    <p> Somos uma empresa especializada em restauração de bolsas, nossa empresa trabalha com
+                        funcionários para o trabalho como costura á mão para produros mais delicados e máquinas de alta
+                        qualidade.
+                    </p>
+                    <p> Trabalhamos com couro sintético, couro legitímo, camurça e couro ecológico. Também trabalhamos
+                        com tecido algodão cru, etamine, cordoba, cetim e cetim chamourse.
+                    </p>
+                    <p> Nos certificamos de jamais danificar ou falsificar a bolsa e somente restaurar á pedido do cliente.
+                        Caso o contrário recompensaremos a bolsa com o valor original/oficial.
+                        Antes e depois da restauração dos itens será gravado o item com a presença da cliente assinante do contrato.
+                    </p>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                    <img src="./images/sobrenos.jpg" alt="Imagem de uma loja com bolsas" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="serviços">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                    <div class="card">
+                        <img src="./images/bolsa1.jpg" alt="Imagem de Bolsa 1" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-tittle"> Bolsas de Couro </h5>
+                            <p class="card-text">
+                                Aqui mostraremos os valores de restaurações para bolsas de couro, dependendo da área
+                                onde é necessário o reparo. Lembrando que para áreas extremamente pequenas é necessário
+                                solicitar orçamento!
+                            </p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">Ver Produto</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./images/bolsa2.jpg" alt="Imagem de Bolsa 2" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-tittle"> Bolsas de Tecido </h5>
+                            <p class="card-text">
+                                Aqui mostraremos os valores de restaurações para bolsas de tecido, dependendo da área
+                                onde é necessário o reparo. Lembrando que para áreas extremamente pequenas é necessário
+                                solicitar orçamento!
+                            </p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-2"> Ver Produto </a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./images/bolsa3.jpg" alt="Imagem de Bolsa 3" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-tittle">Áreas Personalizadas</h5>
+                            <p class="card-text">
+                                Aqui mostraremos os valores de restaurações personalizadas, dependendo da área
+                                onde é necessário o reparo. Lembrando que para áreas extremamente pequenas é necessário
+                                solicitar orçamento!
+                            </p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-3">Ver Produto</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contatos">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h2>Contato</h2>
+                    <p> Ficou interessado (a)? Preencha os campos e envie a sua mensagem e à retornaremos no e-mail!.
+                    </p>
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <form class="form">
+
+                        <div class="input-group">
+                            <input form="control" type="text" name="nome" placeholder="Digite seu nome">
+                        </div>
+
+                        <div class="input-group">
+                            <input form="control" type="text" name="email" placeholder="Digite seu email">
+                        </div>
+
+                        <div class="input-group">
+                            <textarea class="form-control" name="mensagem" rows="5"
+                                placeholder="Envie sua mensagem"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-lg btn-success"> Enviar Mensagem
+
+                        </button>
+
+                    </form>
+                </div>
+            </div>
+    </section>
+
+
+    <div class="modal fade" id="modal-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"> Bolsa de Couro </h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Confira os tipos de restauração e os preços</h6>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Tipo</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td> Interno </td>
+                                <td> R$80,00</td>
+                            </tr>
+                            <tr>
+                                <td> Externo </td>
+                                <td> R$200,00</td>
+                            </tr>
+                            <tr>
+                                <td> Inteira </td>
+                                <td> R$260,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button button="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="modal-2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"> Bolsa de Tecido </h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Confira os tipos de restauração e os preços</h6>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Tipo</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td> Interno </td>
+                                <td> R$60,00</td>
+                            </tr>
+                            <tr>
+                                <td> Externo </td>
+                                <td> R$150,00</td>
+                            </tr>
+                            <tr>
+                                <td> Inteira </td>
+                                <td> R$180,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button button="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal-3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"> Personalizadas </h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Confira os tipos de restauração e os preços</h6>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Tipo</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td> Alça (Individual) </td>
+                                <td> R$50,00</td>
+                            </tr>
+                            <tr>
+                                <td> Zíper (Valor por metro) </td>
+                                <td> R$25,00</td>
+                            </tr>
+                            <tr>
+                                <td> Metais c/ Ferrugem </td>
+                                <td> R$35,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button button="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+        <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
