@@ -1,7 +1,7 @@
 
 section {
-    padding-top: 4rem;
-    padding-bottom: 4rem; 
+    padding-top: 1rem;
+    padding-bottom: 1rem; 
     background-color: rgb(185, 177, 166) ;
 }
 
@@ -11,6 +11,11 @@ input, textarea {
 
 input {
     width: 50pc
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
 }
 
 .card {
@@ -36,7 +41,6 @@ header {
 header ul {
     padding-top: 180px; 
     padding-right: 60px;
-    text-decoration: none;
 }
 
 .btn-secondary {
